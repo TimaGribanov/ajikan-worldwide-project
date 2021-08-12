@@ -1,0 +1,58 @@
+/*
+  Sources which were used to build this page:
+    MDB: https://mdbootstrap.com/docs/standard/content-styles/background-image/
+*/
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+:root {
+  --main-bg-colour: #f4f6f4;
+  --block-bg-colour: #fff;
+}
+
+body {
+  background-color: var(--main-bg-colour);
+}
+
+.col {
+  padding: 0;
+}
+
+/* Navigation */
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+/* Header */
+#intro {
+  background-image: url("../assets/img/top.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  #intro {
+    /*margin-top: -58.59px;*/
+    margin-top: -67.509px;
+  }
+
+  #navbar-small {
+
+  }
+}
+
+#intro .mask {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header-icon {
+  font-size: 1.5rem;
+}
+
+/* Main */
+.content-block {
+  background-color: var(--block-bg-colour);
+}
