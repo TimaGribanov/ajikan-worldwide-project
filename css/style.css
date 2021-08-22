@@ -8,6 +8,8 @@
 :root {
   --main-bg-colour: #f4f6f4;
   --block-bg-colour: #fff;
+  --text-colour: #3f352c;
+  --link-colour: #ee3300;
 }
 
 body {
@@ -16,6 +18,10 @@ body {
 
 .col {
   padding: 0;
+}
+
+a {
+  color: var(--link-colour);
 }
 
 /* Navigation */
@@ -36,7 +42,7 @@ body {
 @media (min-width: 992px) {
   #intro {
     /*margin-top: -58.59px;*/
-    margin-top: -67.509px;
+    margin-top: -67.9px;
   }
 
   #navbar-small {
@@ -52,7 +58,35 @@ body {
   font-size: 1.5rem;
 }
 
+/* About */
+.about-small-header {
+  cursor: pointer;
+}
+
+.about-small-text {
+  display: none;
+}
+
 /* Main */
 .content-block {
   background-color: var(--block-bg-colour);
+}
+
+main {
+  color: var(--text-colour);
+}
+
+.cover-video {
+  width: 70%;
+  height: 70%;
+}
+
+.cover-video-left {
+  position: relative;
+  right: 13%;
+}
+
+.cover-video-right {
+  position: relative;
+  left: 44%;
 }
