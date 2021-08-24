@@ -9,7 +9,8 @@
   --main-bg-colour: #f4f6f4;
   --block-bg-colour: #fff;
   --text-colour: #3f352c;
-  --link-colour: #ee3300;
+  --link-colour: #d2a470;
+  --link-hover-colour: #ee3300;
 }
 
 body {
@@ -22,6 +23,10 @@ body {
 
 a {
   color: var(--link-colour);
+}
+
+a:hover {
+  color: var(--link-hover-colour);
 }
 
 /* Navigation */
