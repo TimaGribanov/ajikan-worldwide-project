@@ -45,7 +45,7 @@ hr {
 
 /* Navigation */
 .navbar .nav-link {
-  color: var(--main-bg-colour) !important;
+  color: #fff !important;
 }
 
 /* Header */
@@ -62,27 +62,15 @@ hr {
   #intro {
     /*margin-top: -58.59px;*/
     margin-top: -67.9px;
-  };
+  }
 }
 
 #intro .mask {
   background-color: rgba(0, 0, 0, 0.8);
-  color: var(--main-bg-colour);
 }
 
 .header-icon {
   font-size: 1.5rem;
-}
-
-#songs-mask {
-  margin-top: -67.9px;
-  height: 67.9px;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-#back-text {
-  position: relative;
-  margin-top: -10px;
 }
 
 /* About */
@@ -103,12 +91,28 @@ main {
   color: var(--text-colour);
 }
 
+main .w-75 {
+  width: 100% !important;
+}
+
+#about div div div {
+  display: none;
+}
+
+.cover-block h5 {
+  text-align: center !important;
+}
+
+.cover-block div {
+  margin: auto;
+}
+
 .cover-video {
   width: 70%;
   height: 70%;
 }
 
-.cover-video-left {
+/*.cover-video-left {
   position: relative;
   right: 13%;
 }
@@ -116,4 +120,4 @@ main {
 .cover-video-right {
   position: relative;
   left: 44%;
-}
+}*/

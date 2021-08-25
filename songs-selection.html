@@ -10,30 +10,17 @@
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body id="page-top">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block">
       <div class="container-fluid">
         <!-- Header menu -->
-        <a class="navbar-brand nav-link" href="#page-top">
-          <strong>Ajikan Worldwide Project</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="bi bi-list"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarExample01">
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#covers">Covers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#contacts">Contacts</a>
+              <a class="nav-link" aria-current="page" href="http://ajikanproject.com"><i class="bi bi-chevron-left"></i> <span>Back to main</span></a>
             </li>
           </ul>
 
@@ -54,140 +41,51 @@
       </div>
     </nav>
 
-    <!-- Header image -->
-    <div id="intro" class="bg-image shadow-2-strong">
-      <div class="mask h-100">
-        <div class="container d-flex align-items-center justify-content-center text-center h-100">
-          <div class="text-white">
-            <h1 class="mb-3">Ajikan Worldwide Project</h1>
-            <h5 class="mb-4">A group of people who love Asian Kung-Fu Generation and cover their songs</h5>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="songs-mask"></div>
   </header>
 
   <!--Main layout-->
   <main class="mt-5">
     <div class="container">
       <!--Section: About-->
-      <section class="mb-5 d-flex justify-content-start" id="about">
-        <div class="shadow rounded p-3 content-block w-75">
-          <h4 class="mb-4 text-start"><strong>About us</strong></h4>
+      <section class="mb-5 d-flex justify-content-center">
+        <div class="shadow rounded p-3 content-block w-100">
+          <h4 class="mb-4 text-center"><strong>Questionnaries' results</strong></h4>
 
-          <p>We're a group of people with a big love for the Asian Kung-Fu Generation's music and with a desire to express it. And together we make this project possible and alive.
+          <p>At this page, questionnaries' results for all of our events are present.</p>
 
+          <!-- Solanin -->
           <div class="mb-2">
-            <h5 class="border border-2 rounded-top rounded-bottom mb-0 p-2 about-small-header" data-id="1"><strong>What</strong> is it?</h5>
-            <p class="border border-top-0 border-2 rounded-bottom m-0 p-2 about-small-text" data-id="1">This is a worldwide project in which anyone can participate. We make covers to celebrate different landmarks of the band's history. For example, initially we made a cover of ‘Solanin’ to feature the Asian Kung-Fu Generation's 25th Anniversary.</p>
-          </div>
-
-          <div class="mb-2">
-            <h5 class="border border-2 rounded-top rounded-bottom mb-0 p-2 about-small-header" data-id="2"><strong>Why</strong> is it?</h5>
-            <p class="border border-top-0 border-2 rounded-bottom m-0 p-2 about-small-text" data-id="2">The main purpose of the project is to show how big and diverse Asian Kung-Fu Generation fan community is. It doesn’t matter whether can we sing or not. The purpose is not to make a cover with perfect vocals, the main goal is to show our love and passion for the band.</p>
-          </div>
-
-          <div>
-            <h5 class="border border-2 rounded-top rounded-bottom mb-0 p-2 about-small-header" data-id="3"><strong>How</strong> does it work?</h5>
-            <div class="border border-top-0 border-2 rounded-bottom m-0 p-2 about-small-text" data-id="3">
-              <p>We select a song via an open survey in which anyone can take part in. As soon as song is chosen, we record the instrumental part (thanks to the cover band Re-Do). After that, each participant record the needed part of the song. When everything of the above is ready, we mix and master the final track, and edit the video. Then, at the landmark date, the video is uploaded to YouTube.</p>
-              <p>The results of song selection questionnaries are availaible <a href="./songs-selection" target="_blank">here</a>.</p>
+            <h5 class="border border-2 rounded-top rounded-bottom mb-0 p-2 about-small-header" data-id="1"><strong>Solanin</strong> (Ajikan 25th Anniversary)</h5>
+            <div class="border border-top-0 border-2 rounded-bottom m-0 p-2 about-small-text" data-id="1">
+              <p>This is a worldwide project in which anyone can participate. We make covers to celebrate different landmarks of the band's history. For example, initially we made a cover of ‘Solanin’ to feature the Asian Kung-Fu Generation's 25th Anniversary.</p>
             </div>
           </div>
-        </div>
+
+          <!-- Konayuki & Kaiga -->
+          <div class="mb-2">
+            <h5 class="border border-2 rounded-top rounded-bottom mb-0 p-2 about-small-header" data-id="2"><strong>Kaiga Kyoushitsu + Konayuki</strong> (Feedback File and I'm standing here Anniversaries)</h5>
+            <div class="border border-top-0 border-2 rounded-bottom m-0 p-2 about-small-text" data-id="2">
+              <p>The main purpose of the project is to show how big and diverse Asian Kung-Fu Generation fan community is. It doesn’t matter whether can we sing or not. The purpose is not to make a cover with perfect vocals, the main goal is to show our love and passion for the band.</p>
+              <div><iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTfBY_vkQAbXP_PqoYrMkIYt1VJS7YWhmtNo2OdfI3tTU5hH-M8Za-gYyCvdbRoED7F21B-LvpWHCHU/pubchart?oid=1747031299&amp;format=interactive"></iframe></div>
+              <div><iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTfBY_vkQAbXP_PqoYrMkIYt1VJS7YWhmtNo2OdfI3tTU5hH-M8Za-gYyCvdbRoED7F21B-LvpWHCHU/pubchart?oid=1496512630&amp;format=interactive"></iframe></div>
+            </div>
+          </div>
       </section>
       <!--Section: About-->
-
-      <!--Section: Covers-->
-      <section class="mb-5 d-flex justify-content-center" id="covers">
-        <div class="shadow rounded p-3 content-block w-75">
-          <h4 class="mb-4 text-center"><strong>Covers</strong></h4>
-
-          <div class="mb-4">
-            <h5 class="mb-3 text-start"><strong>Solanin</strong></h5>
-
-            <div class="ratio ratio-16x9 cover-video cover-video-left">
-              <iframe src="https://www.youtube-nocookie.com/embed/ccM2jZI3OmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-
-          <!-- div class="mb-4">
-            <h5 class="mb-3 text-end"><strong>Konayuki</strong></h5>
-
-            <div class="ratio ratio-16x9 cover-video cover-video-right">
-              <iframe width="700" height="393.75" src="https://www.youtube-nocookie.com/embed/ccM2jZI3OmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div -->
-      </section>
-      <!--Section: Covers-->
-
-      <!--Section: Contacts-->
-      <!-- NOT ADAPTED FOR MOBILES! -->
-      <section class="mb-5 d-flex justify-content-end" id="contacts">
-        <div class="shadow rounded p-3 content-block w-75 d-flex justify-content-end">
-          <div class="d-flex flex-column justify-content-end">
-            <div class="mb-4 text-end">
-              <h4><strong>Contacts</strong></h4>
-            </div>
-
-            <div>
-              <div class="mb-3 d-flex flex-column">
-                <div class="d-inline-flex">
-                  <i class="bi bi-envelope pe-2"></i>
-                  <a href="mailto:ajikanproject@gmail.com" rel="nofollow" target="_blank" role="img" aria-label="E-mail">ajikanproject@gmail.com</a>
-                </div>
-                <div class="d-inline-flex">
-                  <i class="bi bi-twitter pe-2"></i>
-                  <a href="https://twitter.com/AjikanProject" rel="nofollow" target="_blank" role="img" aria-label="Twitter">@AjikanProject</a>
-                </div>
-              </div>
-
-              <div class="mb-3 d-flex flex-column">
-                <h6 class="mb-1"><strong>Organiser:</strong></h6>
-                <div class="d-inline-flex">
-                  <i class="bi bi-envelope pe-2"></i>
-                  <a href="mailto:akfgfragmentsru@gmail.com" rel="nofollow" target="_blank" role="img" aria-label="E-mail">akfgfragmentsru@gmail.com</a>
-                </div>
-                <div class="d-inline-flex">
-                  <i class="bi bi-twitter pe-2"></i>
-                  <a href="https://twitter.com/akfgfragmentsRU" rel="nofollow" target="_blank" role="img" aria-label="Twitter">@akfgfragmentsRU</a>
-                </div>
-              </div>
-
-              <div class="mb-3 d-flex flex-column">
-                <h6 class="mb-1"><strong>ReDo:</strong></h6>
-                <div class="d-inline-flex">
-                  <i class="bi bi-envelope pe-2"></i>
-                  <a href="mailto:redo.akgcover@gmail.com" rel="nofollow" target="_blank" role="img" aria-label="E-mail">redo.akgcover@gmail.com</a>
-                </div>
-                <div class="d-inline-flex">
-                  <i class="bi bi-facebook pe-2"></i>
-                  <a href="https://www.facebook.com/redo.akg/" rel="nofollow" target="_blank" role="img" aria-label="Facebook">ReDo / AKG Cover</a>
-                </div>
-                <div class="d-inline-flex">
-                  <i class="bi bi-youtube pe-2"></i>
-                  <a href="https://www.youtube.com/channel/UC408ecwFVoL3ehcupHQL8_g" rel="nofollow" target="_blank" role="img" aria-label="YouTube">RE-DO AKG Cover</a>
-                </div>
-                <div class="d-inline-flex">
-                  <i class="bi bi-instagram pe-2"></i>
-                  <a href="https://www.instagram.com/redo_akg/" rel="nofollow" target="_blank" role="img" aria-label="Instagram">@redo_akg</a>
-                </div>
-              </div>
-
-              <div class="mb-3 d-flex flex-column">
-                <h6 class="mb-1"><strong>Join our Discord server!</strong></h6>
-                <div class="d-inline-flex">
-                  <i class="bi bi-discord pe-2"></i>
-                  <a href="https://discord.gg/psvUGQP5gK" rel="nofollow" target="_blank" role="img" aria-label="E-mail">akfgfragments</a>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-      </section>
-      <!--Section: Contacts-->
     </div>
   </main>
+
+  <footer class="mb-2 text-center">
+    <span>Ajikan Worldwide Project © 2021
+      <span id="current-year">
+        <script type="text/javascript">
+          if(new Date().getFullYear() != '2021') {
+            document.write('– ' + new Date().getFullYear());
+          }
+        </script>
+      </span>
+    </span>
+  </footer>
 </body>
 </html>
