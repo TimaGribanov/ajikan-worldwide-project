@@ -62,7 +62,13 @@ hr {
   #intro {
     /*margin-top: -58.59px;*/
     margin-top: -67.9px;
-  };
+  }
+}
+
+@media (max-width: 992px) {
+  #participation-form {
+    display: none;
+  }
 }
 
 #intro .mask {
