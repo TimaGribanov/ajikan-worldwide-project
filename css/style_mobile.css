@@ -45,7 +45,7 @@ hr {
 
 /* Navigation */
 .navbar .nav-link {
-  color: #fff !important;
+  color: var(--main-bg-colour) !important;
 }
 
 /* Header */
@@ -67,6 +67,7 @@ hr {
 
 #intro .mask {
   background-color: rgba(0, 0, 0, 0.8);
+  color: var(--main-bg-colour);
 }
 
 .header-icon {
