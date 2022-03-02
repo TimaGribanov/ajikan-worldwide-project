@@ -8,7 +8,9 @@
     <title>Ajikan Worldwide Project</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -16,9 +18,33 @@
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+    <!-- Open Ukraine modal -->
+    <script type="text/javascript">
+      $(window).on('load', function() {
+        $('#ukraineModal').modal('show');
+      });
+    </script>
+
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body id="page-top">
+  <div id="ukraineModal" class="modal fade" tabindex="-1" aria-labelledby="ukraineModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img class="mx-auto d-block" style="width: 192px; height: 128.25;" src="assets/img/uk_flag.png">
+          <p>I am, as an organiser of this peaceful project and a Russian citizen, is deeply outraged by actions of Russian government. I stand with Ukrainian people, with my relatives living in Ukraine.</p>
+          <p>I detest the actions of the Russian officials. A war cannot be for good, any war bring only death, sorrow and suffering.</p>
+          <p>If you can, donate to the UNHCR's (The UN Refugee Agency) programme to help Ukrainians who were forced to leave their homes.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onclick="window.open('https://donate.unhcr.org/int/en/ukraine-emergency#_ga=2.117239878.1532399860.1646207460-1762786588.1646207460');">Donate</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>    
+  </div>
+
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
       <div class="container-fluid">
@@ -211,6 +237,14 @@
                 <div class="d-inline-flex">
                   <i class="bi bi-instagram pe-2"></i>
                   <a href="https://www.instagram.com/redo_akg/" rel="nofollow" target="_blank" role="link" aria-label="Instagram">@redo_akg</a>
+                </div>
+              </div>
+
+              <div class="mb-3 d-flex flex-column">
+                <h6 class="mb-1"><strong>Ajikan Chile:</strong></h6>
+                <div class="d-inline-flex">
+                  <i class="bi bi-facebook pe-2"></i>
+                  <a href="https://www.facebook.com/AjikanChile" rel="nofollow" target="_blank" role="link" aria-label="Facebook">Ajikan Chile</a>
                 </div>
               </div>
 
