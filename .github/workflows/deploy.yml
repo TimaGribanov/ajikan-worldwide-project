@@ -1,0 +1,29 @@
+#https://itsol.biz/deploying-to-a-server-in-a-github-action-push/
+
+name: Deploy to Digital Ocean
+
+concurrency: production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: Ajikan Worldwide Project
+      url: https://ajikanproject.com
+    steps:
+      - name: Install SSH-key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_KEY }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
+      - name: checkout repo
+        uses: actions/checkout@v2.3.4
+      - name: show repo contents
+        run: ls -al
+      - name: deploy
+        run: rsync -ar --exclude=".github" --exclude=".git" --exclude=".vscode" . ${{ secrets.USER }}@${{ secrets.IP }}:${{ secrets.PATH }}
