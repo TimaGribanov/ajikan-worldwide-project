@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Ajikan Worldwide Project
-      url: https://ajikanproject.com
+      url: https://ajikanproject.akfgfragments.com
     steps:
       - name: Install SSH-key
         uses: shimataro/ssh-key-action@v2
